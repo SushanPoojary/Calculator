@@ -86,7 +86,7 @@ def first_calculation():
     while True:
         try:
             in1 = float(input("Enter your 1st Number: "))
-            operation = str(input("What kind of operation do you wanna do? "))
+            operation = str(input("Enter a operation you want to perform! (+, -, *, /, //, %, **) "))
             in2 = float(input("Enter your 2nd Number: "))
             loop_function(in1, in2, operation)
             break
@@ -109,7 +109,7 @@ def loop_calculations(results):
     a = results
     while True:
         try:
-            operation = str(input("What kind of operation do you wanna do? "))
+            operation = str(input("Enter a operation you want to perform! (+, -, *, /, //, %, **) "))
             in3 = float(input("Enter your number: "))
             loop_function(a, in3, operation)
             break
